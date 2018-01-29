@@ -1,0 +1,27 @@
+uuid: 29102ac1-2354-4b87-9f6b-3c040671b269
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_test_select_lis
+field_name: field_test_select_lis
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '1'
+      label: 'yes'
+    -
+      value: '2'
+      label: 'no'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

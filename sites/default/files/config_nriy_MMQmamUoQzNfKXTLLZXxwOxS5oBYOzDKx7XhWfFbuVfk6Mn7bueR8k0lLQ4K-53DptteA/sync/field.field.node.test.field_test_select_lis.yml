@@ -1,0 +1,21 @@
+uuid: 688ce3df-c633-4449-b8d3-5086d8389030
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_test_select_lis
+    - node.type.test
+  module:
+    - options
+id: node.test.field_test_select_lis
+field_name: field_test_select_lis
+entity_type: node
+bundle: test
+label: 'Test select list'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

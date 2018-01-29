@@ -1,0 +1,14 @@
+uuid: bb0c6649-2f74-4f5b-aeea-7b2ed88923e5
+name: 'Drupal 8 Primary'
+mail: siva.i@innoppl.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
